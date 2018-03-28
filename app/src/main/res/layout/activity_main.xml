@@ -15,8 +15,11 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:onClick="goBasic"
+            android:clickable="true"
 
             android:text="BASIC"
+            android:background="@drawable/button"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
@@ -26,6 +29,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:text="ROUTINE"
+            android:background="@drawable/clock"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
@@ -36,6 +40,8 @@
             android:layout_weight="1"
 
             android:text="SETTINGS"
+            android:background="@drawable/gear"
+
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
